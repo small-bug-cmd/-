@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/introduce/introduce"
+  ],
+  "window": {
+    "navigationBarTitleText": "蓝牙遥控小车",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "蓝牙",
+        "iconPath": "pages/image/蓝牙.jpg",
+        "selectedIconPath": "pages/image/蓝牙.jpg"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "遥控",
+        "iconPath": "pages/image/遥控.jpg",
+        "selectedIconPath": "pages/image/遥控.jpg"
+      },
+      {
+        "pagePath": "pages/introduce/introduce",
+        "text": "说明"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

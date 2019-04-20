@@ -1,0 +1,23 @@
+<view class='text'>
+  <view>①:对小车进行连接操控之前，需先连接小车的蓝牙设备。
+  </view>
+  <view class='line'></view>
+  <view>②:点击开始扫描，即可进行设备扫描，点击设备，即可创建连接。
+  </view>
+  <view class='line'></view>
+  <view>③:所有的提示方式都以弹出框的形式进行提醒，例如是否连接成功···
+  </view>
+  <view class='line'></view>
+  <view>④:若设备连接一直失败，请重启手机的蓝牙设备。
+  </view>
+  <view class='line'></view>
+  <view>⑤:本产品用于发送数据，没有读取数据的功能。
+  </view>
+  <view class='line'></view>
+  <view>⑥:本产品虽然经过测试，但难免有bug存在，若有使用者发现bug，可加微信zhu13192957668，我将会继续完善该产品。
+  </view>
+  <view class='line'></view>
+  <view>⑦:本产品因自平衡小车而被开发，也可以用于其他可接受设备进行数据发送。
+  </view>
+  <view class='line'></view>
+</view>

@@ -1,0 +1,177 @@
+.sectionUp {
+  position: absolute;
+  left: 20%;
+  color: gray;
+  top: 25rpx;
+}
+
+.input {
+  border: 1px solid gray;
+  background: white;
+  border-radius: 20rpx;
+}
+
+.buttonUp {
+  position: absolute;
+  height: 80rpx;
+  width: 80rpx;
+  left: 2%;
+  top: 10rpx;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 40rpx;
+  color: gray;
+  text-align: center;
+  line-height: 75rpx;
+}
+
+.spotUp {
+  position: absolute;
+  left: 15%;
+  top: 25rpx;
+  color: gray;
+}
+
+.buttonDown {
+  position: absolute;
+  height: 80rpx;
+  width: 80rpx;
+  left: 2%;
+  top: 100rpx;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 40rpx;
+  color: gray;
+  text-align: center;
+  line-height: 75rpx;
+}
+
+.spotDown {
+  position: absolute;
+  left: 15%;
+  top: 115rpx;
+  color: gray;
+}
+
+.sectionDown {
+  position: absolute;
+  left: 20%;
+  color: gray;
+  top: 115rpx;
+}
+
+.buttonLeft {
+  position: absolute;
+  height: 80rpx;
+  width: 80rpx;
+  left: 2%;
+  top: 190rpx;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 40rpx;
+  color: gray;
+  text-align: center;
+  line-height: 75rpx;
+}
+
+.spotLeft {
+  position: absolute;
+  left: 15%;
+  top: 205rpx;
+  color: gray;
+}
+
+.sectionLeft {
+  position: absolute;
+  left: 20%;
+  color: gray;
+  top: 205rpx;
+}
+
+.buttonRight {
+  position: absolute;
+  height: 80rpx;
+  width: 80rpx;
+  left: 2%;
+  top: 280rpx;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 40rpx;
+  color: gray;
+  text-align: center;
+  line-height: 75rpx;
+}
+
+.spotRight {
+  position: absolute;
+  left: 15%;
+  top: 295rpx;
+  color: gray;
+}
+
+.sectionRight {
+  position: absolute;
+  left: 20%;
+  color: gray;
+  top: 295rpx;
+}
+
+.buttonStop {
+  position: absolute;
+  height: 80rpx;
+  width: 80rpx;
+  left: 2%;
+  top: 370rpx;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 30rpx;
+  color: gray;
+  text-align: center;
+  line-height: 75rpx;
+  border-radius: 50%;
+}
+
+.spotStop {
+  position: absolute;
+  left: 15%;
+  top: 385rpx;
+  color: gray;
+}
+
+.sectionStop {
+  position: absolute;
+  left: 20%;
+  color: gray;
+  top: 385rpx;
+}
+
+.buttonSave {
+  position: absolute;
+  top: 550rpx;
+  left: 30%;
+  height: 100rpx;
+  width: 300rpx;
+  border-radius: 100rpx;
+  color: gray;
+  text-align: center;
+  line-height: 95rpx;
+  font-size: 60rpx;
+}
+
+.text {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  top: 750rpx;
+}
+
+.line {
+  background: white;
+  height: 10px;
+  width: 100%;
+}

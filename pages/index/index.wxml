@@ -1,0 +1,32 @@
+<wxs module="utils">
+  module.exports.max = function(n1, n2) {
+    return Math.max(n1, n2)
+  }
+  module.exports.len = function(arr) {
+    arr = arr || []
+    return arr.length
+  }
+</wxs>
+<textarea class="area" disabled='true'>
+  <view class='service'>已发现{{devices.length}}个设备</view>
+  <view class='space'></view>
+  <view class='service'>{{start}}</view>
+  <view class='line'></view>
+  <view class='space'></view>
+  <view wx:for="{{devices}}" wx:key="key" catchtap='createBLEConnection' data-device-id="{{item.deviceId}}" data-name="{{item.name || item.localName}}">
+    <view class='service'>第{{index+1}}个设备:</view>
+    <view class='service'>设备名字：{{item.name}}</view>
+    <view class='service'>信号强度:{{item.RSSI}}dBm ({{utils.max(0, item.RSSI + 100)}}%)</view>
+    <view class='service'>UUID:{{item.deviceId}}</view>
+    <view class='line'></view>
+    <view class='space'></view>
+  </view>
+</textarea>
+<button class='circle' catchtap='begin' hover-class='hover-device'>
+  <image src='/pages/image/connect.png' class='content'></image>
+</button>
+<text class='text'>开始扫描</text>
+<button class='circletwo' hover-class='hover-device' catchtap='closeBLEConnection'>
+  <image src='/pages/image/disconn.jpg' class='content'></image>
+</button>
+<text class='texttwo'>断开连接</text>

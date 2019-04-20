@@ -1,0 +1,25 @@
+<button class='pozitionup'>自平衡小车控制界面</button>
+<view class='lineup'></view>
+<button class='classup' catchtap='BLECharacteristicValueUp'>
+  <text class='text'>上</text>
+</button>
+<button class='classleft' catchtap='BLECharacteristicValueLeft'>
+  <text class='text'>左</text>
+</button>
+<button class='classdirection' catchtap='BLECharacteristicValueStop'>
+  <text class='text'>stop</text>
+</button>
+<button class='classright' catchtap='BLECharacteristicValueRight'>
+  <text class='text'>右</text>
+</button>
+<button class='classdown' catchtap='BLECharacteristicValueDown'>
+  <text class='text'>下</text>
+</button>
+<view class='linedown'></view>
+<navigator url='/pages/setup/setup' open-type='navigate'>
+  <button class='setupbutton'>
+    <image src='{{pathsetup}}' class='setup'></image>
+  </button>
+</navigator>
+<text class='setuptext'>设置编码</text>
+<text class='pozitiondown'>{{value}}</text>

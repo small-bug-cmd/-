@@ -1,0 +1,45 @@
+<view>
+  <button class='buttonUp'>上</button>
+  <text class='spotUp'>:</text>
+</view>
+<view class='sectionUp'>
+  <input bindinput='bindKeyInputUp' placeholder="{{inputValueUp}}" maxlength='1' class='input'></input>
+</view>
+<view>
+  <button class='buttonDown'>下</button>
+  <text class='spotDown'>:</text>
+</view>
+<view class='sectionDown'>
+  <input bindinput='bindKeyInputDown' placeholder='{{inputValueDown}}' maxlength='1' class='input'></input>
+</view>
+<view>
+  <button class='buttonLeft'>左</button>
+  <text class='spotLeft'>:</text>
+</view>
+<view class='sectionLeft'>
+  <input bindinput='bindKeyInputLeft' placeholder='{{inputValueLeft}}' maxlength='1' class='input'></input>
+</view>
+<view>
+  <button class='buttonRight'>右</button>
+  <text class='spotRight'>:</text>
+</view>
+<view class='sectionRight'>
+  <input bindinput='bindKeyInputRight' placeholder='{{inputValueRight}}' maxlength='1' class='input'></input>
+</view>
+<view>
+  <button class='buttonStop'>stop</button>
+  <text class='spotStop'>:</text>
+</view>
+<view class='sectionStop'>
+  <input bindinput='bindKeyInputStop' placeholder='{{inputValueStop}}' maxlength='1' class='input'></input>
+</view>
+<view>
+  <button class='buttonSave' catchtap='control'>保存设置</button>
+</view>
+<view class='text'>
+  <view>①:最大只能输入一个，可输入数字：0-9，字符：a-z</view>
+  <view class='line'></view>
+  <view>②:不能输入相同的指令</view>
+  <view class='line'></view>
+  <view>③:初始值为：1，2，3，4，0</view>
+</view>
